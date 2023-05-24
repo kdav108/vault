@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/vault/helper/namespace"
+	"github.com/hashicorp/vault/sdk/helper/clientcountutil/generation"
 	"github.com/hashicorp/vault/sdk/logical"
 	"github.com/hashicorp/vault/vault/activity"
-	"github.com/hashicorp/vault/vault/activity/generation"
 	"github.com/stretchr/testify/require"
 )
 
