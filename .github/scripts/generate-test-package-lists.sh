@@ -80,6 +80,7 @@ if [ "${ENTERPRISE:+x}" == "x" ] ; then
     test_packages[5]+=" $base/vault/external_tests/transform"
 fi
 test_packages[5]+=" $base/sdk/helper/nonce"
+test_packages[5]+=" $base/sdk/helper/clientcountutil"
 
 # Total time: 588
 test_packages[6]+=" $base"

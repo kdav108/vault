@@ -1,3 +1,6 @@
+// Copyright (c) HashiCorp, Inc.
+// SPDX-License-Identifier: MPL-2.0
+
 // Package clientcountutil provides a library to generate activity log data for
 // testing.
 package clientcountutil
