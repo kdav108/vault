@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 #  This script validates if the git diff contains on docs changes
 
 event_type=$1 # GH event type (pull_request)

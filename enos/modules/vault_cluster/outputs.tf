@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 output "public_ips" {
   description = "Vault cluster target host public_ips"
   value       = [for host in var.target_hosts : host.public_ip]
